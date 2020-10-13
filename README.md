@@ -1,28 +1,28 @@
 # Basic-linux-shell
 This is a basic linux shell written in C.
 
-The source code for the shell program is named ‘myshell.c’. 
-The source code and their binaries for the external commands are as follows: 
-ls: myls.c , binary: myls
-cat: mycat.c , binary: mycat
-date: mydate.c , binary: mydate
-mkdir: mymkdir.c , binary: mymkdir
-rm: myrm.c , binary: myrm
+The source code for the shell program is named ‘myshell.c’.        
+The source code and their binaries for the external commands are as follows:       
+ls: myls.c , binary: myls     
+cat: mycat.c , binary: mycat        
+date: mydate.c , binary: mydate          
+mkdir: mymkdir.c , binary: mymkdir               
+rm: myrm.c , binary: myrm                      
 
-The Makefile targets are as follows:
-●	compile: to compile all the source codes .c files
-●	run: to execute the binary of myshell.c, i.e, to run the shell.
-●	clean: to remove the binary file of the shell.
+The Makefile targets are as follows:  
+●	compile: to compile all the source codes .c files  
+●	run: to execute the binary of myshell.c, i.e, to run the shell.   
+●	clean: to remove the binary file of the shell.   
 
-
-Assumptions:
-The name of the shell is ‘Shruti Shell’.
-Assumptions taken into account in this shell are as follows:
-●	Maximum length of input string taken is 1000 characters.
-●	Maximum command length supported (command name+options+arguments) = 100.
-●	Directory names of maximum 1024 characters length are supported.
-●	If some error occurs in any system call, or an invalid command/option/arguments are passed, the appropriate error messages are thrown. Only when the user types ‘exit’ command will the shell stop execution.
-●	GNU readline libraries are used in the shell source code, so the machine on which this shell is run must have the readline-dev package installed. To install this package, type this on your linux terminal: sudo apt-get install libreadline-dev
+   
+Assumptions:            
+The name of the shell is ‘Shruti Shell’.              
+Assumptions taken into account in this shell are as follows:              
+●	Maximum length of input string taken is 1000 characters.                   
+●	Maximum command length supported (command name+options+arguments) = 100.                 
+●	Directory names of maximum 1024 characters length are supported.                   
+●	If some error occurs in any system call, or an invalid command/option/arguments are passed, the appropriate error messages are thrown. Only when the user types ‘exit’ command will the shell stop execution.                       
+●	GNU readline libraries are used in the shell source code, so the machine on which this shell is run must have the readline-dev package installed. To install this package, type this on your linux terminal: sudo apt-get install libreadline-dev                            
 
 
 About the shell:
